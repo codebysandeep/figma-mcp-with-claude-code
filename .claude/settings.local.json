@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"$env:USERPROFILE\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
