@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(powershell -Command \"$env:USERPROFILE\")"
+      "Bash(powershell -Command \"$env:USERPROFILE\")",
+      "Bash(echo $env:APPDATA)",
+      "Bash(powershell -Command:*)",
+      "Bash(dir \"%APPDATA%\\Claude\")",
+      "Bash(claude doctor:*)"
     ],
     "deny": [],
     "ask": []
