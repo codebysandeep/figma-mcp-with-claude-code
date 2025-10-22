@@ -5,7 +5,12 @@
       "Bash(echo $env:APPDATA)",
       "Bash(powershell -Command:*)",
       "Bash(dir \"%APPDATA%\\Claude\")",
-      "Bash(claude doctor:*)"
+      "Bash(claude doctor:*)",
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp list:*)",
+      "WebFetch(domain:developers.figma.com)",
+      "WebFetch(domain:help.figma.com)",
+      "Read(//c/Users/sande/**)"
     ],
     "deny": [],
     "ask": []
